@@ -1,0 +1,102 @@
+.heading_title {
+  margin-left: 110px;
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: "Fleur De Leah", cursive;
+}
+h1 {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 60px;
+  text-shadow: 5px 5px 10px rgb(248, 60, 170);
+  letter-spacing: 5px;
+}
+.movies_box {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-top: 40px;
+  padding: 0 100px;
+}
+.category {
+  width: 24%;
+  margin: 0 10px;
+}
+.img {
+  width: 90%;
+  height: 100%;
+  transform: perspective(600px) rotateY(25deg);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.8s;
+  box-shadow: 0 5px 20px black;
+}
+.img:hover {
+  transform: scale(1.2);
+}
+/* cartoons */
+.cartoons_box,
+.tvseries_box {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-top: 50px;
+  padding: 0 100px;
+}
+/* blog */
+.blog {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  padding: 0 100px;
+  width: 100%;
+  height: 70vh;
+}
+.blog_type {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+}
+.bir {
+  background-color: rgb(176, 253, 180);
+}
+.ikki {
+  background-color: rgb(243, 243, 129);
+}
+.uch {
+  background-color: rgb(245, 184, 217);
+}
+.heading_blog {
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-top: 5px;
+  font-family: "Fleur De Leah", cursive;
+}
+.subheading {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+.btn_blog {
+  margin-left: 30px;
+  margin-top: -5px;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: rgb(137, 43, 226);
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
+/* books */
+.btn_books {
+  background-color: rgb(255, 148, 237);
+}
+.books_blog {
+  background-color: rgb(248, 89, 129);
+}
+.books_blog2 {
+  background-color: white;
+}
+.books_blog3 {
+  background-color: rgb(18, 194, 26);
+}
